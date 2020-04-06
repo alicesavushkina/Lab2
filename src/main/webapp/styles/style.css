@@ -1,0 +1,95 @@
+body{
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+header{
+    padding: 10px;
+    background-color: wheat;
+    opacity: 0.7;
+    position: relative;
+    z-index: 2;
+}
+
+header p{
+    font-size: 15px;
+    line-height: 10px;
+    font-family: "Copperplate Gothic Light", Papyrus, fantasy;
+}
+
+table{
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    position: relative;
+    z-index: 2;
+}
+caption{
+    background-color: gold;
+    font-weight: bold;
+    font-family: "Comic Sans MS", serif;
+    font-size: 20px;
+    padding: 10px;
+    color: darkred;
+}
+
+th{
+    font-weight: lighter;
+    height: 30px;
+    vertical-align: bottom;
+}
+
+.coordinate{
+    font-family: Verdana, sans-serif;
+}
+
+.response{
+    background-color: wheat;
+}
+iframe{
+    width: 90%;
+    height: 300%;
+    border: none;
+}
+
+.warning-text{
+    color: firebrick;
+}
+.warning-field{
+    color: firebrick;
+    border-color: firebrick;
+}
+
+input[type="submit"],input[type="reset"]{
+    height: 50%;
+    border-radius: 4px;
+    background-color: gold;
+    color: darkred;
+    border: none;
+    padding: 5px;
+}
+
+input:hover{
+    background-color: coral;
+}
+
+#y, #r, #x{
+    padding: 2%;
+    width: 100%;
+
+}
+p:first-child{
+    color: darkslategray;
+}
+#clock{
+    color: cornflowerblue;
+}
+
+#stars{
+    top: 10px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
